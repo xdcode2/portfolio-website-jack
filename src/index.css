@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply m-0 box-border scroll-smooth border-red-500 p-0 font-inter;
+    }
+    section {
+        @apply relative overflow-hidden py-sec-md;
+    }
+
+    img {
+        @apply select-none object-cover;
+    }
+}
+
+@layer components {
+    .link {
+        @apply text-base font-medium text-gray-90 transition-colors hover:text-primary-50;
+    }
+    .btn-primary {
+        @apply inline-flex h-12 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary-50 px-6 text-base font-normal text-gray-10 transition-colors hover:bg-primary-60;
+    }
+    .label {
+        @apply w-full text-base font-normal text-gray-90;
+    }
+    .input {
+        @apply h-12 w-full rounded-lg border-[1.5px] border-solid border-gray-30 px-2 text-gray-90 outline-0 placeholder:text-sm placeholder:font-normal placeholder:text-gray-50 focus:border-primary-50;
+    }
+}
