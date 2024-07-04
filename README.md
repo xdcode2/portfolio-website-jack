@@ -19,7 +19,7 @@ Build a Responsive Portfolio Website using React JS & TailwindCSS
 
 Welcome to the Responsive Personal Portfolio Website repository! This project is a step-by-step guide to creating a sleek, modern, and fully responsive personal portfolio website. Whether you're a beginner web developer or a pro looking to refine your skills, this repository provides all the essential resources you need to build a stunning online portfolio.
 
-[Watch video tutorial]()
+[Watch video tutorial](https://youtu.be/uwrIY1K8jYU)
 
 ## <a name="tools">🛠️ Tools</a>
 
@@ -27,7 +27,8 @@ Welcome to the Responsive Personal Portfolio Website repository! This project is
 -   [TailwindCSS](https://tailwindcss.com/)
 -   [Framer Motion](https://www.framer.com/motion/)
 -   [React Router](https://reactrouter.com/en/main)
--   [EmailJS](https://www.emailjs.com/)
+-   [React Simple TypeWriter](https://react-simple-typewriter.vercel.app/?path=/docs/introduction--page)
+-   [Email JS](https://www.emailjs.com/)
 
 ## <a name="features">✨ Features</a>
 
